@@ -2,7 +2,7 @@
 
 
 **Introduction:**
-Proper monitoring and control of the smart grid are highly dependent on the transient stability assessment (TSA). Effective TSA can provide system operators with insightful information on stability statuses and causes under various contingencies and cyber-attacks. In our project, we work on a real-time stability condition predictor based on a feedforward neural network. We plan to use the conjugate gradient backpropagation algorithm for training. We believe that by real-time assessment of the network features based on the minimum redundancy maximum relevance algorithm, this method can successfully predict transient stability and out of step conditions for the network and generators, respectively. The proposed method used in this project using the Feedforward Neural Network , helps in providing a TS prediction which would thereby help in predicting the TS condition before the fault clearance, thus significantly saving time in control actions/operations by the operator.
+Proper monitoring and control of the smart grid are highly dependent on the transient stability assessment (TSA). Effective TSA can provide system operators with insightful information on stability statuses and causes under various contingencies and cyber-attacks. In my project, I have worked on a real-time stability condition predictor based on a feedforward neural network. plan to use the conjugate gradient backpropagation algorithm for training. The proposed Feedforward Neural Network, helps in providing a TS prediction which would thereby help in predicting the TS condition before the fault clearance, thus significantly saving time in control actions/operations by the operator.
 
 
 **Modelling grid stability:**
@@ -37,9 +37,7 @@ Along with traditional libraries imported for tensor manipulation, mathematical 
 
 
 **Model definition:**
-**What is a feedforward neural network and how does it work?**
-
-In its most basic definition, a feed forward neural network is a single layer perceptron.The feed-forward model is the simplest type of neural network because the input is only processed in one direction..In this model, a sequence of inputs enter the layer and are multiplied by the weights.If the sum of the values is more than the predetermined threshold,the output value is 1, and if the sum of these values is less than the predetermined threshold ,the output value is -1.The neural network compares the outputs of its nodes with the desired values using a property known as the delta rule, allowing the network to alter its weights through training to create more accurate output values. This training and learning procedure results in gradient descent. The artificial neural network (ANN) architecture reflects a sequential structure with:
+In this model, a sequence of inputs enter the layer and are multiplied by the weights.If the sum of the values is more than the predetermined threshold,the output value is 1, and if the sum of these values is less than the predetermined threshold ,the output value is -1.The neural network compares the outputs of its nodes with the desired values using a property known as the delta rule, allowing the network to alter its weights through training to create more accurate output values. This training and learning procedure results in gradient descent. The artificial neural network (ANN) architecture reflects a sequential structure with:
 
 ● one input layer (12 input nodes);
 
